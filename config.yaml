@@ -22,10 +22,10 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: api.websecured-io
-    name: websecured.io
+    name: api.websecured.io
     description: 'Built for anything connected to the Internet.'
     url: 'https://api.websecured.io'
     method: GET
