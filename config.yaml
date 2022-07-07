@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'WebSecured Status Page'
   url: 'https://websecured.workers.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: websecured-io # unique identifier
     name: websecured.io
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'WebSecured Frontend' # default=empty
     url: 'https://websecured.io/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -26,7 +26,7 @@ monitors:
 
   - id: api.websecured-io
     name: api.websecured.io
-    description: 'Built for anything connected to the Internet.'
+    description: 'WebSecured API'
     url: 'https://api.websecured.io'
     method: GET
     expectStatus: 200
