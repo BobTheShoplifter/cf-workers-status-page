@@ -31,11 +31,3 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-    
-  - id: 3s-no
-    name: 3s.no
-    description: '3Secrets'
-    url: 'https://3s.no'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
